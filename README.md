@@ -1,2 +1,2 @@
-# react-saturday
-Laboratorios prácticos para aprender react desde cero
+# Clase de Sábados
+## Mi primera app con React
