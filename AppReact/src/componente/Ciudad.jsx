@@ -6,11 +6,12 @@ function Ciudad({nombre,descripcion,imagen})
     return (
         <>
         <div className="ciudad">
-            <h3>{nombre}</h3>
-            <p>{descripcion}</p>
-            <img src="{imagen}" alt={nombre} />
+            <h3 className="ciudad_titulo">{nombre}</h3>
+            <p className="ciudad_descripcion">{descripcion}</p>
+            <img className="ciudad__imagen" src={imagen} alt={nombre}  />
         </div>
         </>
+
     );
 }
 
